@@ -1,0 +1,358 @@
+.mainheader{
+    
+        }  
+         .mainicondiv{
+      display: flex;
+      gap: 4px;
+    }
+    .hicon{
+      display: flex;
+      align-items: center;
+      gap: 440px;
+      height: 55px;
+    }
+    .headingdiv{
+      font-size: 24px;
+    }
+    .linesec{
+      font-size: 22px;
+    }
+    .btncon{
+    /* border: 1px solid; */
+    padding: 7px 15px;
+    color: white;
+    background-color: black;
+    border-radius: 11px; 
+    }
+    .wix{
+      display: flex;
+      justify-content: space-around;
+    }
+    .wixcon{
+      display: flex;
+      align-items: center;
+    gap: 30px;
+    }
+                                      /* wix section end here  */
+                                                      /* axisgroupsection :start  */
+      .colorclass{
+      color: #4460bb;
+    }
+    .slashtext{
+      display: flex;
+      gap: 5px;
+    }
+    .slash{
+      border: 1px solid;
+      font-size: 26px;
+    padding: 0px 10px;
+    background-color: #c63f60;
+    color: white;
+    }
+    .stxt{
+          font-size: 27px;
+         display: flex;
+    }
+    .axcon{
+
+    }
+    .axcon>ul{
+      list-style-type: none;
+      display: flex;
+      gap: 30px;
+    }
+    .mainaxis{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #f9fbfc;
+      padding: 40px;
+    }
+    .usertxt{
+      display: flex;
+    }
+    .mainlogindiv{
+      display: flex;
+      align-items: center;
+    }                                                 
+ 
+               
+                                                /* axis group end here  */
+                      /* picture section start here  */
+      .picturesection{
+         position: relative;
+      }
+      .imagediv{
+        
+         /* height: 468px; */
+      }
+      .overlaycontent{
+        /* position: absolute; */
+      }
+      .headingdiv{
+        /* color: white; */
+     
+      }
+      .buttondiv{
+        border: 1px solid red;
+        display: inline-block;
+        background-color: #c63f60;
+        color: white;
+        padding: 6px 12px;
+      } 
+                                            /* picturesection end here */
+                                          /* ourservices section start  */
+           .ourservices{
+            display: flex; 
+            justify-content: center;
+            width: 100%;
+            /* height: 100%; */
+            height: 454px;
+            align-items: center;
+            gap: 97px;
+
+         }  
+         .piechart{
+      
+           width: 314px;
+           /* height: 56px; */
+           height: 260px;
+           margin-top: 50px;
+
+         }
+         .piecontent{
+          /* width: 40px; */
+          margin-top: 20px;
+          width: 252px;
+
+         }
+         .pieheading{
+
+         }
+         .piepara{
+
+         }
+         .piebutton{
+            border: 1px solid;
+            width: 71px;
+            padding: 8px 15px;
+            color: white;
+            background-color: #c63f60;
+         }       
+         /* ourservices section end here   */
+                          /* ourteam start here           */
+         .ourteamsection{
+             padding: 122px 53px;
+    /* border: 1px solid black; */
+               justify-content: ;
+               background-color: #f6f8fd;
+        }
+        .ourmaindiv{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .ourheading{
+
+        }
+        .ourpara{
+         /* width: 260px; */
+         width: 353px;
+         color: #7f7f82;
+        }
+        .ourbutton{
+          border: 1px solid red ;
+          width: 72px;
+          padding: 4px 12px;
+          background-color: #c63f60;
+          color: white;
+        }
+        .ourimage{
+          width: 304px;
+
+        }
+        /* our team end here  */
+        /* client section start  */
+        .ourclient{
+          margin-top: 120px;
+        }
+       .mainimagediv{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 76px;
+        }
+        .twomainimagediv{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 72px;
+        }
+        .clientbutton{
+            color: white;
+            background-color: #c63f60;
+            width: 73px;
+             padding: 13px 33px;
+             align-items: center;
+             /* justify-content: space-around; */
+             margin-top: 40px;
+             margin-left: 176px;
+
+        }
+        .clientheading{
+                /* margin-left: 63px; */
+                margin-left: 160px;
+        }
+        .dehimage{
+            /* width: 136px; */
+           margin-left: 20px;
+        }
+        /* client section end here  */
+                            /* /* latest articles start here */
+           .articleheading{
+            margin-left: 71px;
+           }                 
+         .imgdiv{                
+        width: 234px;
+         height: 170px;
+      }
+      .textdiv{
+        margin-top: 28px;
+      }
+      .eyenumdiv{
+        display: flex;
+        align-items: center;
+      }
+      .msgnum{
+        display: flex;
+      }
+      .eyemsg{
+        display: flex;
+        gap: 10px;
+      }
+     .msgheart{
+      display: flex;
+     }
+     .heart{
+      padding: 0px 65px;
+     } 
+     .linediv{
+      margin-bottom: 5px
+     }
+     .impdivimg{
+      margin-left: 70px;
+     }
+     .articles{
+      margin-top: 100px;
+     }
+
+     /* latest articles end here  */
+      /* same articles  */
+        /* latest articles start here  */
+        .latestarticles{
+          justify-content: space-around;
+        }
+      .imgdiv2{
+        width: 234px;
+         height: 170px;
+      }
+      .textdiv2{
+        margin-top: 28px;
+      }
+      .eyenumdiv2{
+        display: flex;
+        align-items: center;
+      }
+      .msgnum2{
+        display: flex;
+      }
+      .eyemsg2{
+        display: flex;
+        gap: 10px;
+      }
+     .msgheart2{
+      display: flex;
+     }
+     .heart2{
+      padding: 0px 65px;
+     } 
+     .linediv2{
+      margin-bottom: 5px
+     }
+     .threediv{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 100px;
+     }
+     /* latest articles end here  */
+     /* latest articles 3 start here  */
+      .imgdiv3{
+        width: 234px;
+         height: 170px;
+      }
+      .textdiv3{
+        margin-top: 28px;
+      }
+      .eyenumdiv3{
+        display: flex;
+        align-items: center;
+      }
+      .msgnum3{
+        display: flex;
+      }
+      .eyemsg3{
+        display: flex;
+        gap: 10px;
+      }
+     .msgheart3{
+      display: flex;
+     }
+     .heart3{
+      padding: 0px 65px;
+     } 
+     .linediv3{
+      margin-bottom: 5px
+     }
+                       /* latest articles 3 end here  */
+            /* head div start  */
+    .mainhead{
+      display: flex;
+      margin-top: 130px;
+      margin-left: 70px;
+      margin-bottom: 60px;
+      justify-content: space-around;
+    }
+    .button{
+      /* border: 1px solid red; */
+      background-color: #c63f60;
+    width: 76px;
+    height: 19px;
+    padding: 11px 45px;
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+    }
+    .headingdiv{
+      background-color: #ffffff;
+    } 
+    .headingdiv{
+      background-color: #fbfbfe;
+    }
+    /* head div end here  */
+    /* last section start  */
+    .twologo{
+      display: flex;
+    }
+    .allsection{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      /* gap: 10px; */
+      background-color: #dbdbdb;
+      height: 180px;
+
+    }
+    .logosection{
+      display: flex;
+    }
+    /* last section end here  */
