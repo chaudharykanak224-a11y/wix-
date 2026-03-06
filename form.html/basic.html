@@ -7,11 +7,13 @@
 </head>
 <body>
       <h1>Student Record Form </h1>  
-      <form>
+      <form autocomplete="off">
+        <fieldset>
+            <legend >POLICE VERIFICATION</legend>
         <label for="name1">Your Name:</label>
         <input type="text" placeholder="Enter your name " id="name1" name="name1"><br><br>
 
-        <label for="password">Enter your password:</label>
+        <label for="password">Enter your passwords:</label>
         <input type="password" placeholder="Enter your password " id="password" name="password"><br><br>
 
         <label for="gender">Gender:</label>
@@ -22,6 +24,18 @@
         <label for="female">Female</label>
          <input type="radio" name="gen" id="others">
          <label for="others">Others</label> <br><br>
+
+         <label for="dob">choose yor dob :</label>
+         <input type="date" id="dob" min="2000-12-20" max="2010-12-5"><br><br>
+
+         <label for="email">Enter you email id:</label>
+         <input type="email" placeholder="enter your email" id="email"><br><br>
+         
+         <label for="">Phone number:</label>
+         <input type="tel" placeholder="enter ur phone number "><br><br>
+
+         <label for=""> Age:</label>
+         <input type="number" placeholder="number" min="0" max="10">
 
          <p>Choose Languages:</p>
 
@@ -35,13 +49,40 @@
           <label for="java ">JAVA</label> <br>
 
            <input type="checkbox" name="react" id="react">
-          <label for="react ">REACT</label> <br>
+          <label for="react ">REACT</label> <br> <br>
+ 
+          <label for="lang">Select your fav. lang</label>
+          <select name="languages" id="lang">
+            <option value=""disabled selected>Select ur lang</option>
+            <option value="HTML">HTML</option>
+             <option value="CSS">CSS</option>
+             <option value="JS">JS</option>
+            <option value="C">C</option>
+             <option value="PYTHON">PYTHON</option>
+          </select> <br> <br>
+             
+          <textarea name="ytdesc" id="ytdesc"
+          rows="2" cols="23" placeholder="enter your suggestion"></textarea> <br><br>
 
+          <label for="col">choose your color:</label>
+          <input type="color" id="col" name="usercolor"> <br><br>
            <input type="Submit">
+            <input type="reset">
 
 
+              </fieldset>
 
+              <fieldset>
+                <legend>06/03/2026</legend>
 
+                <input list="colors"/>
+                <datalist id="colors">
+                <option value="red"></option>
+                <option value="blue"></option>
+                <option value="black"></option>
+                <option value="purple"></option>
+                </datalist>
+              </fieldset>
       </form>
 
 
