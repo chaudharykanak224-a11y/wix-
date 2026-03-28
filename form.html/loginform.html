@@ -5,19 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
    <style>
-
     .body{
-      
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-
     .form{
       width: 100%;
       height: 100%;
      justify-content: center;
     }
     .maindiv{
-      width: 80px;
-      /* justify-content: center; */
+      width: 1000px;
+      justify-content: center;
+       display: flex;
+      align-items: center;
+      padding: 3px 501px;
+    }
+    .user{
+      display: flex;
+    }
+    .pass{
+      display: flex;
     }
    </style>
 </head>
@@ -26,11 +35,20 @@
     <div class="form">
     <div class="maindiv">
      <fieldset>
-      <legend><img src="./navbar/images/finger.png" alt=""></legend>
-      <label for=""></label>
-      <input type="text" placeholder="Username" > <br><br>
-      <label for=""></label>
-      <input type="text" placeholder="password"> <br><br>
+      <legend><img src="../images/finger.png"
+        width="100px"
+        alt=""></legend>
+        <div class="user">
+      <label for=""><img src="../images/user.png"
+        width="35px"
+        alt=""></label>
+      <input type="text" placeholder="Username" > </div> <br><br> 
+
+      <div class="pass">
+      <label for=""> <img src="../images/lock.png"
+        width="35px"
+        alt=""></label>
+      <input type="text" placeholder="password"></div> <br><br>
 
     <pre style="display:inline-block; margin-right: 20px;">Rememberme</pre> 
      <pre style="display: inline-block;">ForgotPassword</pre>
